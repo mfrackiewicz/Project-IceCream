@@ -1,0 +1,75 @@
+.bgcolor {
+  background-color: #84a178;
+}
+
+.footer-ice {
+  display: block;
+  color: #fcfcfc;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 234px;
+  max-height: 134px;
+}
+.passion {
+  display: block;
+  color: #fcfcfc;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.36px;
+  text-transform: uppercase;
+}
+.footer-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.social-icon {
+  fill: none;
+}
+.footer-contact {
+  color: #131313;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.32px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+p a {
+  color: #fcfcfc;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 186%;
+}
+.coppyright::before {
+  content: '';
+  display: block;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+}
+.coppyright {
+  margin: 0 auto;
+  color: #7a7a7a;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.28px;
+  padding-bottom: 20px;
+}
+.coppyright span {
+  display: block;
+}
