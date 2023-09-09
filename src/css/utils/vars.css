@@ -1,0 +1,12 @@
+:root {
+  --mainFont: 'Montserrat', sans-serif;
+  --TitleFont: 'Seymour One', sans-serif;
+  --bodyBackgroundColor: rgba(132, 161, 120, 1);
+  --yellowColor: rgba(248, 210, 78, 1);
+  --blackColor: rgba(19, 19, 19, 1);
+  --greyColor: rgba(19, 19, 19, 1);
+  --whiteFontColor: rgba(252, 252, 252, 1);
+  --productsIceCream: rgba(174, 198, 165, 1);
+  --productsIceCoffe: rgba(239, 212, 120, 1);
+  --productsMilkshakes: rgba(214, 147, 109, 1);
+}
