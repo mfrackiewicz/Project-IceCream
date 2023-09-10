@@ -30,6 +30,8 @@
 
 .data-desc {
   margin-top: 16px;
+  max-width: 230px;
+  margin-inline: auto;
 }
 
 .advantage {
@@ -60,8 +62,9 @@
 }
 
 @media screen and (min-width: 480px) {
-    .advantages-list {
-        padding-bottom: 81px;
+  .advantages-list {
+    padding-bottom: 81px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -91,7 +94,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .advantages-list {
     max-width: 1168px;
     font-size: 16px;
