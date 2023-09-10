@@ -67,9 +67,11 @@
   border: none;
   border-radius: 10px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
   margin: 0 auto;
-  display: block;
-  text-align: center;
+  padding: 12px 34px;
   line-height: 1.4;
   font-size: 14px;
 }
