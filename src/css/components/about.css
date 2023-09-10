@@ -6,10 +6,10 @@
   line-height: 1.7;
   letter-spacing: 0.02em;
   font-family: var(--mainFont);
+  background: var(--bodyBackgroundColor);
 }
 
 .about-container {
-  background: var(--bodyBackgroundColor);
   padding-top: 61px;
   padding-bottom: 50px;
 }
@@ -114,6 +114,7 @@
   position: fixed;
   background-color: var(--whiteFontColor);
   transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
 .is-hidden {
