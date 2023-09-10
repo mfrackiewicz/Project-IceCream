@@ -8,11 +8,10 @@
     font-family: var(-mainFont);
 }
 
-.container {
+.about-container {
     background: var(--bodyBackgroundColor);
     padding-top: 61px;
     padding-bottom: 50px;
-
 }
 
 .about-tradition {
