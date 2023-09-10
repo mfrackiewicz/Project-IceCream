@@ -33,7 +33,7 @@ button {
 body {
   cursor: url(/src/images/globals/cursor.svg), auto;
   font-family: var(--TitleFont);
-  background-color: var(--TitleFont);
+  background-color: var(--bodyBackgroundColor);
 }
 
 *:focus,
