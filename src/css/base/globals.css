@@ -30,3 +30,12 @@ button {
   padding: 0;
   cursor: pointer;
 }
+
+body {
+  cursor: url(/src/images/globals/cursor.svg), auto;
+}
+
+*:focus,
+*:hover {
+  cursor: url(/src/images/globals/cursor.svg), auto;
+}
