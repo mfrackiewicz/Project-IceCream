@@ -68,8 +68,6 @@
   border-radius: 10px;
   font-weight: 600;
   margin: 0 auto;
-  display: block;
-  text-align: center;
   line-height: 1.4;
   font-size: 14px;
 }
@@ -78,13 +76,14 @@
   background-color: rgba(10, 136, 23, 1);
 }
 
-.about-btn:focus-within {
-  color: rgba(252, 252, 252, 1);
+.about-btn:focus {
+  color: var(--whiteFontColor);
+  fill: var(--whiteFontColor);
   background-color: rgba(10, 136, 23, 1);
 }
 
 .about-svg {
-  fill: rgba(0, 0, 0, 1);
+  fill: var(--blackColor);
 }
 
 .about-btn svg {
