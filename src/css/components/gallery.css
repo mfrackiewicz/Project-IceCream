@@ -9,6 +9,7 @@
   height: 100%;
   position: absolute;
   margin-top: -36px;
+  border-radius: 8px;
 }
 @media screen and (min-width: 480px) {
   .gallery__placeholder,
@@ -28,6 +29,7 @@
   }
   .gallery__img {
     margin-top: -144px;
+    border-radius: 18px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -38,5 +40,6 @@
   }
   .gallery__img {
     margin-top: -98px;
+    border-radius: 24px;
   }
 }
