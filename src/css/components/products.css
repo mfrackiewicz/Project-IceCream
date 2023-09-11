@@ -19,7 +19,7 @@
     }
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .products {
     background-image: url(../../images/products/background-desktop@1x.jpg);
   }
@@ -27,5 +27,208 @@
     .products {
       background-image: url(../../images/products/background-desktop@2x.jpg);
     }
+  }
+}
+.products--wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 61px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 480px) {
+  .products--wrapper {
+    max-width: 480px;
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products--wrapper {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products--wrapper {
+    max-width: 1200px;
+  }
+}
+.products__label {
+  color: var(--blackColor);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 768px) {
+  .products__label {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__label {
+    font-size: 30px;
+  }
+}
+.products__title {
+  color: var(--blackColor);
+  text-align: center;
+  font-family: var(--TitleFont);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 148px;
+}
+@media screen and (min-width: 480px) {
+  .products__title {
+    margin-bottom: 145px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__title {
+    font-size: 34px;
+    margin-bottom: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__title {
+    font-size: 36px;
+    letter-spacing: 0.06em;
+    margin-bottom: 303px;
+  }
+}
+.products__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 168px;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .products__list {
+    gap: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__list {
+    gap: 29px;
+  }
+}
+.products__item {
+  display: flex;
+  flex-basis: 280px;
+  flex-direction: column;
+  min-height: 420px;
+  text-align: center;
+  box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+@media screen and (min-width: 480px) {
+  .products__item {
+    flex-basis: 320px;
+    min-height: 428px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__item {
+    flex-basis: calc((100% - 32px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__item {
+    flex-basis: calc((100% - 58px) / 3);
+    min-height: 536px;
+  }
+}
+.products__item--ice {
+  position: relative;
+  background-color: var(--productsIceCream);
+}
+.products__item--coffee {
+  position: relative;
+  background-color: var(--productsIceCoffe);
+}
+.products__item--shake {
+  position: relative;
+  background-color: var(--productsMilkshakes);
+}
+.products__item--card {
+  flex-grow: 1;
+}
+.products__item--title {
+  color: var(--blackColor);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-top: 123px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 480px) {
+  .products__item--title {
+    margin-top: 126px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__item--title {
+    font-size: 22px;
+    margin-top: 108px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__item--title {
+    font-size: 30px;
+    margin-top: 165px;
+    margin-bottom: 66px;
+  }
+}
+.products__item--description {
+  color: var(--blackColor);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.76;
+  letter-spacing: 0.04em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+@media screen and (min-width: 480px) {
+  .products__item--description {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__item--description {
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__item--description {
+    font-size: 16px;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+}
+.products__item--btn {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: transparent;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .products__item--btn {
+    margin-bottom: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__item--btn {
+    margin-bottom: 60px;
   }
 }

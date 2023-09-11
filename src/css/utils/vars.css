@@ -10,4 +10,6 @@
   --productsIceCoffe: rgba(239, 212, 120, 1);
   --productsMilkshakes: rgba(214, 147, 109, 1); 
   --greenButtonHover: rgba(10, 136, 23, 1)
+  --green-hover-focus: rgba(10, 136, 23, 1);
+  --gray-disabled: rgba(171, 171, 171, 1);
 }
