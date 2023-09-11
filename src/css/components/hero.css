@@ -3,7 +3,7 @@
 }
 .hero__container{
     background-color: rgba(132, 161, 120, 1);
-    background-image: url(../images/hero/dots_background.png);
+    /* background-image: url(../images/hero/dots_background.png); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 5% 95%;

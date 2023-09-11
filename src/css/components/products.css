@@ -146,7 +146,7 @@
   position: relative;
   background-color: var(--productsIceCream);
 }
-.products__item--ice::before {
+/* .products__item--ice::before {
   content: ' ';
   background: linear-gradient(0deg, rgba(156, 190, 143, 0.7) 0%, rgba(156, 190, 143, 0.7) 100%),
     #d9d9d9;
@@ -166,11 +166,33 @@
     top: -22%;
     left: 13%;
   }
-}
+} */
 
 .products__item--coffee {
   position: relative;
   background-color: var(--productsIceCoffe);
+}
+.products__item--coffee::before {
+  content: ' ';
+  background-color: rgba(248, 210, 78, 0.7);
+  background-image: linear-gradient(
+			to right,
+			rgba(47, 48, 58, 0.4),
+			rgba(47, 48, 58, 0.4)
+		),
+		url(../images/img-hero-background.jpg);
+  background-image: url('../../images/products/coffee-mobile@1x.jpg');
+  fill: linear-gradient(0deg, rgba(248, 210, 78, 0.7) 0%, rgba(248, 210, 78, 0.7) 100%), #d9d9d9;
+  filter: drop-shadow(0px 5.403973579406738px 20.26490020751953px rgba(153, 114, 23, 0.25));
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: -22%;
+  left: 13%;
 }
 .products__item--shake {
   position: relative;
