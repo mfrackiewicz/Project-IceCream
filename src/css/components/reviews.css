@@ -1,0 +1,119 @@
+:root {
+  --mainFont: 'Montserrat', sans-serif;
+  --TitleFont: 'Seymour One', sans-serif;
+  --bodyBackgroundColor: rgba(132, 161, 120, 1);
+  --yellowColor: rgba(248, 210, 78, 1);
+  --blackColor: rgba(19, 19, 19, 1);
+  --greyColor: rgba(19, 19, 19, 1);
+  --whiteFontColor: rgba(252, 252, 252, 1);
+  --productsIceCream: rgba(174, 198, 165, 1);
+  --productsIceCoffe: rgba(239, 212, 120, 1);
+  --productsMilkshakes: rgba(214, 147, 109, 1);
+}
+
+.reviews {
+  width: 100%;
+}
+.swiper {
+  max-width: 320px;
+  border: #131313 solid 1px;
+}
+
+@media screen and (min-width: 480px) {
+  .swiper {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .swiper {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .swiper {
+    max-width: 1200px;
+  }
+}
+.customer-image {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0 32px 0;
+}
+@media screen and (min-width: 768px) {
+  .customer-image {
+    padding: 100px 0 32px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customer-image {
+    padding: 140px 0 32px 0;
+  }
+}
+.customer-name {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--blackColor);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 186%; /* 37.2px */
+  padding: 32px 0 12px 0;
+}
+@media screen and (min-width: 768px) {
+  .customer-name {
+    font-size: 16px;
+  }
+}
+
+.customer-text {
+  /*container*/
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 280px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--bodyBackgroundColor);
+  padding: 35px 39px;
+
+  /*text*/
+  color: var(--whiteFontColor);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 255%; /* 30.6px */
+}
+@media screen and (min-width: 768px) {
+  .customer-text {
+    width: 705px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 186%;
+    letter-spacing: 0.56px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customer-text {
+    width: 968px;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+  }
+}
+.customer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  margin: 60px;
+}
+.swiper-pagination-bullet-active {
+  background: var(--bodyBackgroundColor);
+  opacity: 0, 5;
+}
