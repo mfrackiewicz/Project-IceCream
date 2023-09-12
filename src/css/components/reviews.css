@@ -16,6 +16,7 @@
 }
 .swiper {
   max-width: 320px;
+  margin-top: -40px;
 }
 
 @media screen and (min-width: 480px) {
@@ -35,6 +36,33 @@
 }
 .swiper-wraper {
   display: flex;
+}
+.container-icecream-photo {
+  display: flex;
+  justify-content: center;
+}
+.ice-cream-photo {
+  display: block;
+  width: 280px;
+  height: auto;
+  border-radius: 8px;
+}
+@media screen and (min-width: 480px) {
+  .ice-cream-photo {
+    width: 440px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ice-cream-photo {
+    width: 704px;
+    border-radius: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ice-cream-photo {
+    width: 1013px;
+    border-radius: 24px;
+  }
 }
 .customer-image {
   display: flex;
