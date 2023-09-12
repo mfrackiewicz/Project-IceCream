@@ -16,6 +16,10 @@
   gap: 16px;
 }
 
+.position-anchor {
+  margin-top: -353px;
+}
+
 .locations-data li {
   font-size: 12px;
   font-style: normal;
@@ -93,6 +97,9 @@ address {
 }
 
 @media screen and (min-width: 480px) {
+  .position-anchor {
+    margin-top: -349px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -145,6 +152,14 @@ address {
   .location-wrapper {
     margin-bottom: 40px;
   }
+
+  .position-anchor {
+    margin-top: -299px;
+  }
+
+  .position-anchor-sub {
+    margin-top: -299px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -180,5 +195,13 @@ address {
 
   .ny-address {
     max-width: 261px;
+  }
+
+  .position-anchor {
+    margin-top: -128px;
+  }
+
+  .position-anchor-sub {
+    margin-top: -128px;
   }
 }
