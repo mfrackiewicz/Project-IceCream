@@ -325,6 +325,10 @@
   color: var(--blackColor);
 }
 
+  .about-iframe {
+    border: none;
+  }
+
 @media screen and (min-width: 768px) {
   .about-box {
     line-height: 1.4;
