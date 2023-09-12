@@ -182,12 +182,15 @@
   .products__item--ice::before {
     top: -120px;
     left: 12px;
+    height: 212px;
   }
 }
 @media screen and (min-width: 1200px) {
   .products__item--ice::before {
     top: -183px;
     left: 34px;
+    width: 302px;
+    height: 318px;
     background-image: url(../../images/products/ice-desktop@1x.png);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -236,12 +239,15 @@
   .products__item--coffee::before {
     top: -120px;
     left: 12px;
+    height: 212px;
   }
 }
 @media screen and (min-width: 1200px) {
   .products__item--coffee::before {
     top: -183px;
     left: 34px;
+    width: 302px;
+    height: 318px;
     background-image: url(../../images/products/coffee-desktop@1x.png);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -289,12 +295,15 @@
   .products__item--shake::before {
     top: -120px;
     left: 12px;
+    height: 212px;
   }
 }
 @media screen and (min-width: 1200px) {
   .products__item--shake::before {
     top: -183px;
     left: 34px;
+    width: 302px;
+    height: 318px;
     background-image: url(../../images/products/shake-desktop@1x.png);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
