@@ -1,0 +1,141 @@
+.icon-contact {
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 768px){ 
+    .button-contact{ 
+        min-width: 320px;  
+        padding-top: 20px;  
+        padding-bottom: 20px;
+
+    }  
+     
+    .button-contact__out-locations{ 
+        display: block; 
+        margin-bottom: 16px; 
+    } 
+     
+  
+ 
+    .button-contact__franchise{ 
+        display: block; 
+        border-radius: 10px; 
+        border: 2px solid var(--yellowColor); 
+    
+    }
+
+} 
+
+@media screen and (max-width: 1199px) { 
+     
+    .button-contact{ 
+        padding-top: 24px;  
+        padding-bottom: 24px;
+
+    }  
+     
+    .button-contact__out-locations{ 
+        display: block; 
+
+    }
+ 
+    .button-contact__franchise{ 
+        display: block; 
+    }
+    
+} 
+ 
+@media screen and (min-width: 1200px){ 
+    .button-contact{  
+        padding-top: 24px;  
+        padding-bottom: 24px;
+
+    }  
+     
+    .button-contact__out-locations{ 
+        display: inline-block;   
+        margin-right: 16px;
+    }
+ 
+    .button-contact__franchise{ 
+        display: inline-block; 
+
+    }
+    
+} 
+ 
+/* -----wspólne elementy----- */ 
+
+.button-contact{  
+    height: auto;
+    background-color: var(--bodyBackgroundColor);
+    text-align: center; 
+    border: none; 
+
+}  
+ 
+.button-contact__out-locations{ 
+    margin: auto; 
+    width: 196px; 
+    height: 42px;  
+    background-color:var(--yellowColor);
+    font-size: 14px; 
+    font-weight: 600; 
+    line-height: 18px; 
+    margin-bottom: 16px;  
+    border-radius: 10px; 
+    border: none;
+} 
+ 
+.button-contact__out-locations > span{ 
+ 
+}
+ 
+.button-contact__out-locations > svg{ 
+    width: 12px; 
+    height: 12px; 
+    display: inline-block; 
+    margin-left: 4px;
+    vertical-align: middle;
+} 
+
+.button-contact__out-locations:hover{ 
+    background-color: var(--greenButtonHover);
+} 
+.button-contact__out-locations:focus{ 
+    color: #fff; 
+    fill: #fff;
+}
+ 
+/* ------------------------------------ */ 
+
+.button-contact__franchise{ 
+    margin: auto; 
+    width: 196px; 
+    height: 42px;  
+    background-color: var(--bodyBackgroundColor);
+    font-size: 14px; 
+    font-weight: 600; 
+    line-height: 18px; 
+    margin-bottom: 16px; 
+    border-radius: 10px; 
+    border: 2px solid var(--yellowColor);  
+} 
+.button-contact__franchise> span{ 
+
+} 
+
+.button-contact__franchise> svg{ 
+    width: 12px; 
+    height: 12px; 
+    display: inline-block; 
+    margin-left: 4px;
+} 
+ 
+.button-contact__franchise:hover{ 
+    border-color: var(--greenButtonHover);
+} 
+.button-contact__franchise:focus{ 
+    color: #fff; 
+    fill: #fff;
+}

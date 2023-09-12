@@ -1,0 +1,180 @@
+.backdrop__franchise{ 
+    display: flex; 
+    justify-content: center; 
+    position: fixed; 
+    width: 280px; 
+    min-height: 674px; 
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+} 
+
+.is-hidden{      
+    opacity: 0; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+
+ 
+ 
+.franchise{ 
+    padding: 29px 28px 30px 28px;
+    border-radius: 10px;
+    border: 2px solid var(--yellowColor);
+    background: #FCFCFC; 
+    text-align: center;
+} 
+
+.franchise__close-modal{ 
+    border: none;
+    background-color: white;
+    width: 20px; 
+    height: 20px;
+    top: 12px;
+    position: absolute;
+    left: 248px;
+} 
+ 
+.franchise__big-text{ 
+    color: #131313;
+    text-align: center;
+    font-family: Seymour One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;  
+    width: 221px;
+} 
+
+.franchise__small-text{ 
+    width: 222px; 
+    color: #131313;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 20px; 
+    margin-bottom: 24px; 
+    text-align: left;
+} 
+
+.input-name, 
+.input-phone, 
+.input-email{   
+    padding: 8px 12px 7px 12px;
+    width: 224px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid var(--bodyBackgroundColor);
+    background: rgba(248, 210, 78, 0.10);
+    
+    color: #131313;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-bottom: 12px;
+} 
+
+.input-comment{ 
+    border-radius: 10px;
+    border: 1px solid var(--bodyBackgroundColor);
+    background: rgba(248, 210, 78, 0.); 
+    width:224px; 
+    height: 64px; 
+    background: rgba(248, 210, 78, 0.10); 
+    padding-left: 12px; 
+    padding-top: 8px; 
+    font-size: 12px; 
+    font-family: Montserrat; 
+    margin-bottom: 24px; 
+    resize: none;
+}  
+
+.input-name:focus, 
+.input-phone:focus, 
+.input-email:focus, 
+.input-comment:focus{ 
+    border-color: var(--yellowColor); 
+    outline: none;
+}
+ 
+.franchise__submit{  
+    display: inline-flex;  
+    width: 114px;
+    height: 42px;  
+    border-radius: 10px;
+    background: var(--yellowColor); 
+    border: none; 
+    justify-content: center; 
+    align-items: center;
+     
+    font-weight: 600;  
+    font-family: Montserrat;
+    font-size: 12px; 
+
+}  
+
+
+
+@media screen and (min-width: 768px){  
+
+    .franchise{  
+        width: 568px; 
+        padding: 32px 60px
+        
+    } 
+    
+    .franchise__close-modal{  
+        width: 20px; 
+        height: 20px; 
+        left: 390px;
+
+    } 
+     
+    .franchise__big-text{   
+        width: 322px;
+        text-align: center; 
+        margin: auto; 
+        font-family: Seymour One;
+        font-size: 20px;
+        line-height: 28px;
+
+    } 
+    
+    .franchise__small-text{  
+        width: 448px; 
+        font-size: 16px; 
+        margin: auto; 
+        margin-top: 24px; 
+        margin-bottom: 32px;
+
+    } 
+    
+    .input-name, 
+    .input-phone, 
+    .input-email{    
+        width: 368px; 
+        font-size: 14px; 
+        height: 42px; 
+        margin-bottom: 16px;
+
+    } 
+    
+    .input-comment{ 
+        width: 363px; 
+        font-size: 14px;
+    } 
+     
+    .franchise__submit{   
+        width: 121px;
+        font-size: 14px;
+    
+    } 
+
+    
+}  
+

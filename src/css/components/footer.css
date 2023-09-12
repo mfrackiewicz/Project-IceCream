@@ -1,9 +1,21 @@
+/* -----Podstawowe elementy - mobile------- */
+
 .bgcolor {
   background-color: #84a178;
+  padding-top: 20px;
+}
+
+.container-bar {
+  border-bottom: 1px solid #e1e1e1;
+  width: 100%;
+  border-top: none;
+}
+
+.container-footer {
+  margin: auto;
 }
 
 .footer-ice {
-  display: block;
   color: #fcfcfc;
   font-family: Montserrat;
   font-size: 18px;
@@ -11,11 +23,9 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  max-width: 234px;
-  max-height: 134px;
+  margin-bottom: 60px;
 }
 .passion {
-  display: block;
   color: #fcfcfc;
   font-family: Montserrat;
   font-size: 34px;
@@ -24,6 +34,7 @@
   line-height: normal;
   letter-spacing: 1.36px;
   text-transform: uppercase;
+  margin-top: 16px;
 }
 .footer-icon {
   display: flex;
@@ -32,8 +43,8 @@
   justify-content: flex-end;
 }
 .social-icon {
-  fill: none;
 }
+
 .footer-contact {
   color: #131313;
   text-align: right;
@@ -53,12 +64,12 @@ p a {
   font-weight: 700;
   line-height: 186%;
 }
-.coppyright::before {
+/* .coppyright::before {
   content: '';
   display: block;
   border: 1px solid #e1e1e1;
   margin-bottom: 20px;
-}
+} */
 .coppyright {
   margin: 0 auto;
   color: #7a7a7a;
@@ -68,8 +79,102 @@ p a {
   font-style: normal;
   font-weight: 700;
   line-height: 21.28px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .coppyright span {
   display: block;
+}
+
+.icon-footer-2 {
+  z-index: 12;
+  position: relative;
+  margin-top: -34px;
+  opacity: 0;
+}
+
+.icon-footer-2:hover {
+  opacity: 1;
+}
+
+/* ----------zaptyania o media-------- */
+
+@media screen and (max-width: 767px) {
+  .container-footer {
+    min-width: 320px;
+    max-width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-ice {
+    display: block;
+    max-width: 234px;
+  }
+  .passion {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 768px;
+  }
+
+  .container-bar {
+    padding-bottom: 32px;
+  }
+
+  .footer-ice {
+    display: block;
+    font-size: 26px;
+    width: 352px;
+    margin-bottom: 0px;
+  }
+
+  .footer-social-box {
+    display: block;
+  }
+
+  .passion {
+    display: block;
+    font-size: 48px;
+    width: 352px;
+    margin-top: 8px;
+  }
+
+  .footer-contact {
+    padding-top: 32px;
+    padding-bottom: 0px;
+    font-size: 14px;
+  }
+  .coppyright span {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-footer {
+    width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .footer-ice {
+    width: 507px;
+    margin-bottom: 0px;
+  }
+  .passion {
+    width: 507px;
+    font-size: 58px;
+  }
+
+  .footer-contact {
+    padding-bottom: 0px;
+    font-size: 16px;
+  }
 }
