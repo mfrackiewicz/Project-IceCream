@@ -1,17 +1,23 @@
 .background-wrapper {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-repeat: repeat;
   background-image: url(../../images/products/background-mobile@1x.jpg);
+  background-position: left 82px top 345px;
 }
+
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .background-wrapper {
     background-image: url(../../images/products/background-mobile@2x.jpg);
   }
 }
+@media screen and (min-width: 480px) {
+  .background-wrapper {
+    background-position: left -298px top -142px;
+  }
+}
 @media screen and (min-width: 768px) {
   .background-wrapper {
     background-image: url(../../images/products/background-tablet@1x.jpg);
+    background-position: left -0px top -5px;
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .background-wrapper {
@@ -22,6 +28,7 @@
 @media screen and (min-width: 1200px) {
   .background-wrapper {
     background-image: url(../../images/products/background-desktop@1x.jpg);
+    background-position: left -70px top -250px;
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .background-wrapper {
