@@ -1,0 +1,171 @@
+.contacts {
+  justify-content: center;
+}
+
+.contacts-wrapper {
+  margin-top: 44px;
+}
+
+.locations-data {
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
+}
+
+.locations-data li {
+  /* display: flex;
+  flex-direction: column; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.location-info {
+  background: var(--whiteFontColor);
+  border-radius: 24px;
+  box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+  margin-top: 16px;
+}
+
+.location-wrapper {
+  margin: 40px 32px 24px 32px;
+}
+
+.location-type {
+  display: inline;
+  background-color: var(--yellowColor);
+  vertical-align: middle;
+  padding: 4px 22px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  margin: 0 auto auto 0;
+}
+
+.city-name {
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+}
+
+address {
+  color: var(--productsMilkshakes);
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: 0.03em;
+  margin-top: 8px;
+  max-width: 212px;
+  margin-bottom: 24px;
+}
+
+.chicago-address {
+  max-width: 190px;
+}
+
+.hours {
+  color: rgba(171, 171, 171, 1);
+}
+
+.opening-hours {
+  line-height: 1.86;
+}
+
+.opening-weekdays {
+  padding-top: 24px;
+  border-top: 1px solid rgba(225, 225, 225, 1);
+}
+
+.opening-weekends {
+  margin-bottom: 24px;
+  margin-top: 8px;
+}
+
+.contact-details {
+  padding-top: 18px;
+  border-top: 1px solid rgba(225, 225, 225, 1);
+}
+
+.phone-and-mail a {
+  color: var(--blackColor);
+  line-height: 1.6;
+  margin-top: 6px;
+}
+
+.contacts-buttons {
+  margin: 20px auto 60px auto;
+  justify-content: center;
+}
+
+.contacts-buttons button {
+  margin-inline: auto;
+}
+
+.locations-btn {
+  width: 196px;
+  height: 42px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--yellowColor);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.franchise-btn {
+  margin-top: 16px;
+  min-width: 196px;
+  height: 42px;
+  border-radius: 10px;
+  border: 2px solid var(--yellowColor);
+  background-color: transparent;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts-arrow {
+  fill: currentColor;
+  color: currentColor;
+  vertical-align: middle;
+  /* height: 12px;
+  width: 12px; */
+  margin-left: 4px;
+}
+
+.locations-btn:hover {
+  background-color: var(--green-hover-focus);
+}
+
+.locations-btn:focus-within {
+  background-color: var(--green-hover-focus);
+  color: var(--whiteFontColor);
+  fill: var(--whiteFontColor);
+}
+
+.locations-btn:disabled {
+  background-color: var(--gray-disabled);
+}
+
+.franchise-btn:hover {
+  border-color: var(--green-hover-focus);
+}
+
+.franchise-btn:focus-within {
+  border-color: var(--green-hover-focus);
+  color: var(--whiteFontColor);
+  fill: var(--whiteFontColor);
+}
+
+.franchise-btn:disabled {
+  border-color: var(--gray-disabled);
+}
