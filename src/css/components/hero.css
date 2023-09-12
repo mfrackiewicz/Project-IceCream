@@ -23,7 +23,10 @@
     width: 367px;
     font-size: 38;
     color: #fcfcfc;
-    font-family: Seymour One, sans-serif
+    font-family: Seymour One, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    
 }
 .hero-left__navigation-list{
     padding-left: 0;
@@ -57,8 +60,8 @@
     line-height: 1.25;
 }
 .hero-left__navigation-item{
-    text-align: left;
-    margin: auto 3em;
+    display: flex;
+    align-items: center;
 }
 .hero-left__link-text{
     color: #f8d24e;
@@ -67,6 +70,7 @@
     font-weight: 600;
     text-decoration: underline;
     transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 12px;
 }
 .hero-left__demo-list{
     list-style: none;
@@ -113,3 +117,10 @@
     line-height: auto;
     font-weight: 400;
 }
+
+@media screen and (max-width: 767px) {
+    .hero-right__counter-list, .hero-left__demo-item {
+        display: none;
+    }
+}
+
