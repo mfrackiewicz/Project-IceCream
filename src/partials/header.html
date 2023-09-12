@@ -9,9 +9,9 @@
    
           <ul class="menu">
         <li > <a href="./index.html" class="menu-link">Home</a></li>
-        <li ><a href="./index.html" class="menu-link">How it's made?</a></li>
-        <li ><a href="./index.html" class="menu-link">Our products</a></li>
-        <li ><a href="./index.html" class="menu-link">Contacts</a></li>
+        <li ><a href="#about" class="menu-link">How it's made?</a></li>
+        <li ><a href="#products" class="menu-link">Our products</a></li>
+        <li ><a href="#contacts" class="menu-link">Contacts</a></li>
       </ul>
    
       <div class="site-nav">
@@ -30,7 +30,7 @@
             ></path>
           </svg>
         </button>
-            <button class="button-header" type="button" data-modal-open="1">
+            <button class="button-header hidden" type="button" data-modal-open="1">
       Buy now<svg width="12" height="12">
         <use xlink:href="./images/header/icons.svg#icon-Vector"></use>
       </svg>
@@ -74,7 +74,7 @@
         </li>
       </ul>
       <div class="button-header-mobile-position">
-        <button class="button-header-mobile" type="button" data-modal-open="1">
+        <button class="button-header hidden-tablet" type="button" data-modal-open="1">
           Buy now
           <svg width="12" height="12">
             <use xlink:href="./images/header/icons.svg#icon-Vector"></use>
@@ -159,7 +159,9 @@
 
           <fieldset class="form-fieldset">
             <label >
-              <input type="name" name="name" class="form-input"
+              <input type="name" name="name" required minlength="3"
+              
+              class="form-input"
               placeholder="Name" />
             </label>
             <label >
@@ -168,6 +170,8 @@
                 name="phone_number"
                 class="form-input"
                 placeholder="Phone"
+                required minlength="9"
+                patter="^((\d{3}[- ]\d{3}[- ]\d{3}[- ]))$"
               />
             </label>
            
@@ -176,6 +180,7 @@
                 class="form-input form-input-comment"
                 name="text"
                 placeholder="Comment"
+                max="50"
               ></textarea>
             </label>
           </fieldset>
