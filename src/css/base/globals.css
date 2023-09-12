@@ -31,12 +31,12 @@ button {
 }
 
 body {
-  cursor: url(/src/images/globals/cursor.svg), auto;
+  cursor: url(/src/images/globals/cursor.svg) 16 16, auto;
   font-family: var(--mainFont);
   background-color: var(--bodyBackgroundColor);
 }
 
 *:focus,
 *:hover {
-  cursor: url(/src/images/globals/cursor.svg), auto;
+  cursor: url(/src/images/globals/cursor.svg) 16 16, auto;
 }
