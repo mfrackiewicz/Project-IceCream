@@ -6,15 +6,36 @@
   background-image: url(../../images/hero/dots_background.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 5% 95%;
+  background-position: 0% 98%;
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1 fr 1fr;
+  padding: 0;
   justify-content: space-between;
 }
-
+@media (max-width: 479px) {
+  .hero__container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/hero/kropki_mobile.png);
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero__container {
+    background-image: url(../../images/hero/kropki_mobile.png);
+    background-position: 120% 98%;
+    background-size: 70%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero__container {
+    background-image: url(../../images/hero/kropki_tablet.png);
+    background-position: 0% 98%;
+    background-size: 100%;
+  }
+}
 /* hero-left */
 .hero-left__container {
   margin-top: 30px;
@@ -27,12 +48,26 @@
   text-transform: uppercase;
   margin-bottom: 32px;
 }
+@media (max-width: 1200px) {
+  .hero-left__title {
+    font-size: 26px;
+    line-height: 1.03;
+    width: 247px;
+  }
+}
+@media (max-width: 1200px) {
+  .hero-left__title--passion {
+    font-size: 34px;
+    line-height: 1.03;
+  }
+}
 .hero-left__navigation-list {
   padding-left: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 }
 .hero-left__link-button,
 .hero-left__demo-link {
@@ -61,6 +96,24 @@
   display: flex;
   align-items: center;
 }
+@media (max-width: 1200px) {
+  .hero-left__button {
+    width: 108px;
+    height: 38px;
+  }
+}
+.hero-left__button:hover {
+  border-color: rgba(10, 136, 23, 1);
+}
+
+.hero-left__button:focus {
+  border-color: rgba(10, 136, 23, 1);
+  color: rgba(252, 252, 252, 1);
+}
+.hero-left__button:disabled {
+  border-color: rgba(171, 171, 171, 1);
+}
+
 .hero-left__link-text {
   color: #f8d24e;
   background-color: rgba(0, 0, 0, 0);
@@ -74,10 +127,24 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  margin: 40px auto 0 -35px;
+  margin-top: 42px;
+  margin-bottom: 65px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-left__demo-list {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-left__demo-item {
+    font-size: 12px;
+  }
 }
 .hero-left__demo-item {
-  margin: 70px 0 auto 20px;
+  /* margin: 70px 0 auto 20px; */
+  display: flex;
+  align-items: center;
 }
 .hero-left__demo-text {
   width: 200px;
@@ -85,15 +152,19 @@
   line-height: 140%;
   color: #fff;
   font-family: Montserrat, sans-serif;
+  margin-bottom: 29px;
+  margin-left: 32px;
 }
 .hero-left__demo-vector {
   fill: #fff;
+  margin-left: 32px;
 }
 
 /* hero-right */
 .hero-right__container {
   display: flex;
   flex-direction: row;
+  /* /* position: absolute; */
 }
 .hero-right__counter-list {
   list-style: none;
@@ -122,3 +193,63 @@
     display: none;
   }
 }
+
+@media (max-width: 478px) {
+  .hero-ice {
+    width: 177px;
+    height: 217px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-ice {
+    width: 218px;
+    height: 267px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .hero-ice {
+    width: 268px;
+    height: 329px;
+  }
+}
+@media (max-width: 479px) {
+  .hero-picture {
+    margin-left: 83px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .hero-picture {
+    display: flex;
+    align-items: baseline;
+    margin-left: 27px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-right__container {
+    display: grid;
+    justify-content: right;
+    margin-top: 70px;
+  }
+}
+.ice-palet {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .ice-palet {
+    width: 152px;
+    height: 152px;
+  }
+}
+/* @media (min-width: 768px) {
+  .grid {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    display: grid;
+  }
+} */
