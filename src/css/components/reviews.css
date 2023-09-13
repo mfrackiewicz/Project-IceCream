@@ -15,25 +15,8 @@
   width: 100%;
   height: 100%;
   padding-bottom: 325px;
-  height: 959px;
 }
 @media screen and (min-width: 480px) {
-  .reviews {
-    height: 1010px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .reviews {
-    height: 959px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .reviews {
-    height: 967px;
-  }
-}
-
-/* @media screen and (min-width: 480px) {
   .reviews {
     padding-bottom: 308px;
   }
@@ -48,7 +31,7 @@
     padding-bottom: 78px;
   }
 }
- */
+
 .swiper {
   position: relative;
   top: -36px;
@@ -84,8 +67,6 @@
   min-width: 280px;
   min-height: 130px;
   max-width: calc(100vw - 40px);
-/*   max-width: 280px;
-  height: 130px; */
   border-radius: 8px;
 }
 @media screen and (min-width: 480px) {
