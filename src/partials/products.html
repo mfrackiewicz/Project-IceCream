@@ -11,7 +11,7 @@
             stabilizer
           </p>
         </div>
-        <button type="button" class="products__item--btn" js-ingredients-open>
+        <button type="button" class="products__item--btn" js-products-open-1>
           <svg width="40px" height="16px">
             <use href="./images/products/icons.svg#icon-Arrow"></use>
           </svg>
@@ -25,7 +25,7 @@
             preservatives and flavor enhancers
           </p>
         </div>
-        <button type="button" class="products__item--btn" js-ingredients-open>
+        <button type="button" class="products__item--btn" js-products-open-2>
           <svg width="40px" height="16px">
             <use href="./images/products/icons.svg#icon-Arrow"></use>
           </svg>
@@ -39,12 +39,315 @@
             other sweets of your choice
           </p>
         </div>
-        <button type="button" class="products__item--btn" js-ingredients-open>
+        <button type="button" class="products__item--btn" js-products-open-3>
           <svg width="40px" height="16px">
             <use href="./images/products/icons.svg#icon-Arrow"></use>
           </svg>
         </button>
       </li>
     </ul>
+  </div>
+
+  <!-- MODAL 1 -->
+  <div class="products-backdrop products-is-hidden" js-products-1>
+    <div class="products-modal">
+      <button type="button" class="modal__close-btn" js-products-close-1>
+        <svg width="13" height="13">
+          <use href="./images/about/about.svg#close-icon"></use>
+        </svg>
+      </button>
+      <h2 class="products-modal__title">Chololate icecream</h2>
+      <div class="ice-cream--div">
+        <picture class="ice-cream-div__picture">
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/products/chocolate-icecream@1x.png 1x,
+              ./images/products/chocolate-icecream@2x.png 2x
+            "
+          />
+          <img
+            src="./images/products/chocolate-icecream@1x.png"
+            alt="ice-cream"
+            class="ice-cream-div__img"
+          />
+        </picture>
+      </div>
+      <ul class="product-properties">
+        <li class="product-properties__item">
+          <p class="product-properties__value">320</p>
+          <p class="product-properties__type">Kcal</p>
+        </li>
+        <li class="product-properties__item">
+          <p class="product-properties__value">4g</p>
+          <p class="product-properties__type">Prote...</p>
+        </li>
+        <li class="product-properties__item">
+          <p class="product-properties__value">8,2g</p>
+          <p class="product-properties__type">Fats</p>
+        </li>
+        <li class="product-properties__item">
+          <p class="product-properties__value">40,4g</p>
+          <p class="product-properties__type">Carbs</p>
+        </li>
+      </ul>
+      <h3 class="ingredients__title">Ingredients</h3>
+      <ul class="ingredients-list">
+        <li class="ingredients-list__item">
+          <p>Milk</p>
+          <p>100ml</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Belgian chocolate</p>
+          <p>20g</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Cream</p>
+          <p>150 ml</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Cocoa powder</p>
+          <p>30g</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Sugar</p>
+          <p>40g</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Vanilla sugar</p>
+          <p>10g</p>
+        </li>
+      </ul>
+      <form class="ingredients-form">
+        <label for="ingridient-name-1"></label
+        ><input
+          type="text"
+          name="ingridient-name"
+          id="ingridient-name-1"
+          placeholder="Name"
+          class="ingredients-form__name"
+          required
+        /><label for="ingridient-tel-1"></label
+        ><input
+          type="tel"
+          pattern="[0-9].{8,}"
+          name="ingridient-tel"
+          id="ingridient-tel-1"
+          placeholder="Phone"
+          class="ingredients-form__tel"
+          required
+        /><label for="ingridient-comment-1"></label>
+        <textarea
+          name="ingridient-comment-1"
+          id="ingridient-comment-1"
+          placeholder="Comment"
+          rows="5"
+          class="ingredients-form__comment"
+        >
+        </textarea>
+      </form>
+      <button type="submit" class="ingredients-form__button">Submit</button>
+    </div>
+  </div>
+
+  <!-- MODAL 2 -->
+  <div class="products-backdrop products-is-hidden" js-products-2>
+    <div class="products-modal">
+      <button type="button" class="modal__close-btn" js-products-close-2>
+        <svg width="13" height="13">
+          <use href="./images/about/about.svg#close-icon"></use>
+        </svg>
+      </button>
+      <h2 class="products-modal__title">Latte macchiato</h2>
+      <div class="ice-cream--div">
+        <picture class="ice-cream-div__picture">
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/products/lattemachiato@1x.png 1x,
+              ./images/products/lattemachiato@2x.png 2x
+            "
+          />
+          <img
+            src="./images/products/lattemachiato@1x.png"
+            alt="coffee"
+            class="ice-cream-div__img"
+          />
+        </picture>
+      </div>
+      <ul class="product-properties">
+        <li class="product-properties__item">
+          <p class="product-properties__value">320</p>
+          <p class="product-properties__type">Kcal</p>
+        </li>
+        <li class="product-properties__item">
+          <p class="product-properties__value">4g</p>
+          <p class="product-properties__type">Prote...</p>
+        </li>
+        <li class="product-properties__item">
+          <p class="product-properties__value">8,2g</p>
+          <p class="product-properties__type">Fats</p>
+        </li>
+        <li class="product-properties__item">
+          <p class="product-properties__value">40,4g</p>
+          <p class="product-properties__type">Carbs</p>
+        </li>
+      </ul>
+      <h3 class="ingredients__title">Ingredients</h3>
+      <ul class="ingredients-list">
+        <li class="ingredients-list__item">
+          <p>Espresso</p>
+          <p>25 ml</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Steamed milk</p>
+          <p>150 ml</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Cream</p>
+          <p>150 ml</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Cocoa powder</p>
+          <p>30g</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Sugar</p>
+          <p>40g</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Vanilla sugar</p>
+          <p>10g</p>
+        </li>
+      </ul>
+      <form class="ingredients-form">
+        <label for="ingridient-name-2"></label
+        ><input
+          type="text"
+          name="ingridient-name"
+          id="ingridient-name-2"
+          placeholder="Name"
+          class="ingredients-form__name"
+          required
+        /><label for="ingridient-tel-2"></label
+        ><input
+          type="tel"
+          pattern="[0-9].{8,}"
+          name="ingridient-tel"
+          id="ingridient-tel-2"
+          placeholder="Phone"
+          class="ingredients-form__tel"
+          required
+        /><label for="ingridient-comment-2"></label>
+        <textarea
+          name="ingridient-comment"
+          id="ingridient-comment-2"
+          placeholder="Comment"
+          rows="5"
+          class="ingredients-form__comment"
+        >
+        </textarea>
+      </form>
+      <button type="submit" class="ingredients-form__button">Submit</button>
+    </div>
+  </div>
+
+  <!-- MODAL 3 -->
+  <div class="products-backdrop products-is-hidden" js-products-3>
+    <div class="products-modal">
+      <button type="button" class="modal__close-btn" js-products-close-3>
+        <svg width="13" height="13">
+          <use href="./images/about/about.svg#close-icon"></use>
+        </svg>
+      </button>
+      <h2 class="products-modal__title">Chololate milkshake</h2>
+      <div class="ice-cream--div">
+        <picture class="ice-cream-div__picture">
+          <source
+            media="(min-width: 320px)"
+            srcset="./images/products/milkshake@1x.png 1x, ./images/products/milkshake@2x.png 2x"
+          />
+          <img
+            src="./images/products/milkshake@1x.png"
+            alt="milkshake"
+            class="ice-cream-div__img"
+          />
+        </picture>
+      </div>
+      <ul class="product-properties">
+        <li class="product-properties__item">
+          <p class="product-properties__value">570</p>
+          <p class="product-properties__type">Kcal</p>
+        </li>
+        <li class="product-properties__item">
+          <p class="product-properties__value">4g</p>
+          <p class="product-properties__type">Prote...</p>
+        </li>
+        <li class="product-properties__item">
+          <p class="product-properties__value">8,2g</p>
+          <p class="product-properties__type">Fats</p>
+        </li>
+        <li class="product-properties__item">
+          <p class="product-properties__value">40,4g</p>
+          <p class="product-properties__type">Carbs</p>
+        </li>
+      </ul>
+      <h3 class="ingredients__title">Ingredients</h3>
+      <ul class="ingredients-list">
+        <li class="ingredients-list__item">
+          <p>Milk</p>
+          <p>200ml</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Chocolate syrup</p>
+          <p>20ml</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Cream</p>
+          <p>150 ml</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Cocoa powder</p>
+          <p>30g</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Sugar</p>
+          <p>40g</p>
+        </li>
+        <li class="ingredients-list__item">
+          <p>Vanilla sugar</p>
+          <p>10g</p>
+        </li>
+      </ul>
+      <form class="ingredients-form">
+        <label for="ingridient-name-3"></label
+        ><input
+          type="text"
+          name="ingridient-name"
+          id="ingridient-name-3"
+          placeholder="Name"
+          class="ingredients-form__name"
+          required
+        /><label for="ingridient-tel-3"></label
+        ><input
+          type="tel"
+          pattern="[0-9].{8,}"
+          name="ingridient-tel"
+          id="ingridient-tel-3"
+          placeholder="Phone"
+          class="ingredients-form__tel"
+          required
+        /><label for="ingridient-comment-3"></label>
+        <textarea
+          name="ingridient-comment"
+          id="ingridient-comment-3"
+          placeholder="Comment"
+          rows="5"
+          class="ingredients-form__comment"
+        >
+        </textarea>
+      </form>
+      <button type="submit" class="ingredients-form__button">Submit</button>
+    </div>
   </div>
 </section>

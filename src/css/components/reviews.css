@@ -13,25 +13,63 @@
 
 .reviews {
   width: 100%;
+  height: 100%;
+  padding-bottom: 325px;
+  height: 959px;
 }
+@media screen and (min-width: 480px) {
+  .reviews {
+    height: 1010px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .reviews {
+    height: 959px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reviews {
+    height: 967px;
+  }
+}
+
+/* @media screen and (min-width: 480px) {
+  .reviews {
+    padding-bottom: 308px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding-bottom: 183px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reviews {
+    padding-bottom: 78px;
+  }
+}
+ */
 .swiper {
-  max-width: 320px;
-  margin-top: -40px;
+  position: relative;
+  top: -36px;
 }
 
 @media screen and (min-width: 480px) {
   .swiper {
     max-width: 480px;
+    top: -49px;
   }
 }
 @media screen and (min-width: 768px) {
   .swiper {
     max-width: 768px;
+    top: -144px;
   }
 }
 @media screen and (min-width: 1200px) {
   .swiper {
     max-width: 1200px;
+    top: -98px;
   }
 }
 .swiper-wraper {
@@ -43,24 +81,30 @@
 }
 .ice-cream-photo {
   display: block;
-  width: 280px;
-  height: auto;
+  min-width: 280px;
+  min-height: 130px;
+  max-width: calc(100vw - 40px);
+/*   max-width: 280px;
+  height: 130px; */
   border-radius: 8px;
 }
 @media screen and (min-width: 480px) {
   .ice-cream-photo {
-    width: 440px;
+    max-width: 440px;
+    height: 204px;
   }
 }
 @media screen and (min-width: 768px) {
   .ice-cream-photo {
-    width: 704px;
+    max-width: 704px;
+    height: 327px;
     border-radius: 18px;
   }
 }
 @media screen and (min-width: 1200px) {
   .ice-cream-photo {
-    width: 1013px;
+    max-width: 1013px;
+    height: 422px;
     border-radius: 24px;
   }
 }

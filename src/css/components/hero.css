@@ -4,23 +4,23 @@
 .hero-left__button:focus{ 
     color: #fcfcfc;
 } 
-
+​
 .hero-left__link-text:hover{ 
     color: #0a8817;
 } 
 .hero-left__link-text:focus{ 
     color: #fcfcfc;
 } 
-
+​
 /* ---------------global style---------- */ 
-
+​
 .hero-left__button{ 
     margin-right: 12px;  
     border: 2px solid #f8D24e; 
     border-radius: 8px; 
     background-color: #84a178; 
     font-weight: 600;
-
+​
 }  
 .hero-left__link-text{ 
     color: #f8D24e; 
@@ -28,15 +28,15 @@
     font-weight: 600; 
     font-size: 12px;
 }
-
-
+​
+​
 /* -------------------------------------- */
-
+​
 @media screen and (max-width: 480px) {    
     .hero-right__number-container{ 
         display: none;
     }
-
+​
     .hero__container-border{
         width: 320px; 
         margin: auto;
@@ -50,13 +50,13 @@
         margin-bottom: 32px; 
         font-family: Seymour One;
     } 
-
+​
     .hero-left__title >p{
         font-size: 34px;
     }
   
 /* ------products and how its made----- */ 
-
+​
 .hero-left__navigation-item{
     display: inline-block;
 }
@@ -65,22 +65,22 @@
     width: 108px; 
     height: 38px; 
     font-size: 12px; 
-
-
+​
+​
 } 
-
-
-
+​
+​
+​
 /* ------------------------------------ */
     .hero-right__container{ 
         display: none;
     }
-
+​
     .hero-left__demo-list{ 
         display: none;
     }
   
-
+​
     /* ---------ice--------- */
     .big-ice{ 
         display: none;
@@ -91,7 +91,7 @@
         margin: auto; 
         margin-top: 19px;
     } 
-
+​
  
     .background-dots{  
         width: 320px; 
@@ -102,14 +102,14 @@
     } 
     
 }  
-
+​
 @media (min-width: 481px) and (max-width: 767px) {    
-
+​
     .hero-right__number-container{ 
         display: none;
     }
-
-
+​
+​
     .hero__container-border{
     
         margin: auto; 
@@ -125,13 +125,13 @@
         text-transform: uppercase; 
         font-family: Seymour One;
     } 
-
+​
     .hero-left__title >p{
         font-size: 34px;
     }
   
 /* ------products and how its made----- */ 
-
+​
 .hero-left__navigation-item{
     display: inline-block;
 }
@@ -140,20 +140,20 @@
     width: 108px; 
     height: 38px; 
     font-size: 12px; 
-
-
+​
+​
 } 
-
+​
 /* ------------------------------------ */
     .hero-right__container{ 
         display: none;
     }
-
+​
     .hero-left__demo-list{ 
         display: none;
     }
   
-
+​
     /* ---------ice--------- */
     .big-ice{ 
         display: none;
@@ -166,7 +166,7 @@
         margin-top: 19px; 
         margin-top: -120px;
     } 
-
+​
  
     .background-dots{  
         width: 320px; 
@@ -181,20 +181,20 @@
 }   
  
 /* ------------------------------------------------------------------------- */
-
-
+​
+​
 @media (min-width: 768px) and (max-width: 1199px) {    
  
     .hero__container-border{
         margin: auto; 
         width: 768px; 
     }  
-
+​
     .hero__container{ 
         display: flex; 
         justify-content: space-between;  
         margin-bottom: 12px;
-
+​
     }
 /* -----------ice crem text------------ */
     .hero-left__title{ 
@@ -206,13 +206,13 @@
         text-transform: uppercase; 
         font-family: Seymour One;
     } 
-
+​
     .hero-left__title >p{
         font-size: 34px;
     }
   
 /* ------products and how its made----- */ 
-
+​
 .hero-left__navigation-item{
     display: inline-block;
 }
@@ -222,14 +222,14 @@
     height: 38px; 
     font-size: 12px; 
 } 
-
+​
   /*-------------------konterer z cyframi----------------------------------- */ 
-
+​
 .hero-right__number-container{ 
     display: inline-block;
 }
-
-
+​
+​
 .hero-right__counter-number{ 
     font-size: 28px; 
     font-weight: 900; 
@@ -246,8 +246,8 @@
     text-align: right; 
     margin-bottom: 20px;
 }
-
-
+​
+​
 /* ----------------kontener z małym tekstem-------------------------- */
  
     .hero-left__demo-list{   
@@ -264,7 +264,7 @@
         font-size: 12px;  
         line-height: 140%;
     } 
-
+​
     .hero-left__demo-vector{ 
         margin-top: 29px; 
         fill: #fcfcfc;
@@ -289,7 +289,7 @@
         margin-top: 19px; 
         margin-top: -319px;
     } 
-
+​
  
     .background-dots{  
         width: 768px;  
@@ -304,18 +304,18 @@
 }    
    
 /* ------------------------------------------------ */
-
+​
 @media screen and (min-width: 1200px) {    
     .hero__container-border{
         margin: auto; 
         width: 1200px; 
     }  
-
+​
     .hero__container{ 
         display: flex; 
         justify-content: space-between;  
         margin-bottom: 42px;
-
+​
     }
 /* -----------ice crem text------------ */
     .hero-left__title{ 
@@ -327,13 +327,13 @@
         text-transform: uppercase; 
         font-family: Seymour One;
     } 
-
+​
     .hero-left__title >p{
         font-size: 38px;
     }
   
 /* ------products and how its made----- */ 
-
+​
 .hero-left__navigation-item{
     display: inline-block;
 }
@@ -344,17 +344,17 @@
     height: 42px; 
     font-size: 14px; 
 } 
-
+​
 .hero-left__link-text{ 
     font-size: 14px;
 }
   /*-------------------konterer z cyframi----------------------------------- */ 
-
+​
 .hero-right__number-container{ 
     display: inline-block;
 }
-
-
+​
+​
 .hero-right__counter-number{ 
     font-size: 46px; 
     font-weight: 900; 
@@ -371,13 +371,13 @@
     text-align: right; 
     margin-bottom: 16px;
 }
-
-
-
+​
+​
+​
 /* ----------------kontener z małym tekstem-------------------------- */
  
     
-
+​
     .hero-left__demo-list{   
         margin-left: 257px; 
         margin-top: 109px;   
@@ -392,7 +392,7 @@
         font-size: 14px;  
         line-height: 140%;
     } 
-
+​
     .hero-left__demo-vector{ 
         margin-top: 24px; 
         fill: #fcfcfc;
@@ -417,7 +417,7 @@
         margin-left: 652px;
         margin-top: -560px;
     } 
-
+​
  
     .background-dots{  
         width: 1200px;  
@@ -427,6 +427,6 @@
         margin-top: -383px;
     
     } 
-
+​
     
 }   
