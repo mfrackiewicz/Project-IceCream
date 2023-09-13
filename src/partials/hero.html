@@ -9,17 +9,27 @@
           </a>
         </li>
         <li class="hero-left__navigation-item">
-          <a href="#how-its-made" class="hero-left__link-text">How it's made?</a>
+          <a href="#about" class="hero-left__link-text">How it's made?</a>
         </li>
       </ul>
       <ul class="hero-left__demo-list">
         <li class="hero-left__demo-item">
-          <!-- <img
-            src="./images/hero/hero-ice-balls-desktop.png"
-            alt="three balls ice-cream in cone with fanny smile"
-            width="225"
-            height="225"
-          /> -->
+          <picture
+            ><source
+              media="(min-width: 768px)"
+              srcset="./images/hero/plate-tab@1x.png 1x, ./images/hero/plate-tab@2x.png 2x"
+            />
+            <source
+              media="(min-width: 1200px)"
+              srcset="./images/hero/plate@1x.png 1x, ./images/hero/plate@2x.png 2x"
+            />
+            <img
+              src="./images/hero/plate@1x.png"
+              width="225"
+              height="225"
+              alt="Ice cream balls on the plate"
+            />
+          </picture>
         </li>
         <li class="hero-left__demo-item">
           <a href="#products" class="hero-left__demo-link">
@@ -36,12 +46,28 @@
     </div>
 
     <div class="hero-right__container">
-      <!-- <img
-        src="/images/hero/hero-ice-cone-desktop.png"
-        alt="three balls ice-cream in cone with fanny smile"
-        width="456"
-        height="560"
-      /> -->
+      <picture
+        ><source
+          media="(max-width: 767px)"
+          srcset="./images/hero/ice-mobile@1x.png 1x, ./images/hero/ice-mobile@2x.png 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="./images/hero/ice-tab@1x.png 1x, ./images/hero/ice-tab@2x.png 2x"
+        />
+        <source
+          media="(min-width: 1200px)"
+          srcset="./images/hero/ice-desk@1x.png 1x, ./images/hero/ice-desk@2x.png 2x"
+          type="image/webp"
+        />
+        <img
+          src="./images/hero/ice-desk@1x.png"
+          width="456"
+          height="560"
+          alt="Smiling ice cream cones"
+        />
+      </picture>
+
       <ul class="hero-right__counter-list">
         <li class="hero-right__counter-item">
           <p class="hero-right__counter-number">16</p>
