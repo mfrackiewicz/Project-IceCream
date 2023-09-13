@@ -258,7 +258,10 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) { 
+  .about-modal::backdrop{ 
+    background-color: rgba(0, 0, 0, 0.5);
+  }
   .about-btn {
     margin-top: 54px;
   }
@@ -296,7 +299,11 @@
   overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { 
+  .about-modal::backdrop{ 
+    background-color: rgba(0, 0, 0, 0.5);
+  } 
+
   .about-modal {
     width: 568px;
     min-height: 449px;

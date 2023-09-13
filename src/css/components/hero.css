@@ -100,11 +100,13 @@
   .hero-left__title > p {
     font-size: 34px;
   }
-  /* ------products and how its made----- */
-  ​ .hero-left__navigation-item {
+  /* ------products and how its made----- */ 
+
+  .hero-left__navigation-item {
     display: inline-block;
   }
-  .hero-left__button {
+  .hero-left__button { 
+    display: inline-block;
     width: 108px;
     height: 38px;
     font-size: 12px;
