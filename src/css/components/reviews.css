@@ -13,6 +13,8 @@
 
 .reviews {
   width: 100%;
+  height: 100%;
+  padding-bottom: 325px;
   height: 959px;
 }
 @media screen and (min-width: 480px) {
@@ -30,8 +32,24 @@
     height: 967px;
   }
 }
+
+/* @media screen and (min-width: 480px) {
+  .reviews {
+    padding-bottom: 308px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding-bottom: 183px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reviews {
+    padding-bottom: 78px;
+  }
+}
+ */
 .swiper {
-  max-width: 320px;
   position: relative;
   top: -36px;
 }
@@ -63,8 +81,11 @@
 }
 .ice-cream-photo {
   display: block;
-  max-width: 280px;
-  height: 130px;
+  min-width: 280px;
+  min-height: 130px;
+  max-width: calc(100vw - 40px);
+/*   max-width: 280px;
+  height: 130px; */
   border-radius: 8px;
 }
 @media screen and (min-width: 480px) {
