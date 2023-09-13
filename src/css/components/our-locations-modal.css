@@ -1,14 +1,16 @@
-.backdrop__maps{ 
+.backdrop__maps{  
+    
     display: flex; 
     justify-content: center; 
     position: fixed; 
     top: 0; 
-    width: 280px; 
-    min-height: 365px; 
+    width: 100%; 
+    min-height: 100%; 
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    z-index: 2;
+    z-index: 2;  
+    background-color: rgba(0, 0, 0, 0.5);
 
 
 } 
@@ -16,7 +18,9 @@
 .is-hidden{      
     opacity: 0; 
     visibility: hidden; 
-    pointer-events: none;
+    pointer-events: none;  
+    
+
 }
 
 
@@ -25,13 +29,15 @@
     border: 2px solid var(--yellowColor);
     background: #FCFCFC; 
     text-align: center;
-    padding: 28px;
+    padding: 12px 12px 28px 12px;  
+    margin-top: auto; 
+    margin-bottom: auto;
+
 } 
 
 .locations__close-modal{ 
     border: none; 
     background-color: white;
-    top: 12px;
 } 
 
 .locations__title{ 
@@ -42,8 +48,9 @@
 } 
 
 .locations__maps-picture{ 
+    background-size: cover; 
+    margin: auto; 
     margin-bottom: 24px; 
-    background-size: cover;
 } 
   
 .locations__open-maps{ 
@@ -62,17 +69,21 @@
 }  
 
 .locations__open-maps:visited{
-    color: #000000
-    ;
-}
+    color: #000000;
+} 
 
-@media screen and (max-width: 767px){
+
+@media screen and (max-width: 767px){ 
+     
+    .locations{ 
+        width: 280px; 
+        height: 365px; 
+    }
  
     .locations__close-modal{  
-        width: 18px;  
-        height: 18px;
-        position: absolute;
-        left: 248px;
+        width: 20px;  
+        height: 20px;
+        margin-left: 236px;
     } 
 
     .locations__title{ 
@@ -96,15 +107,15 @@
     .locations{ 
         width: 568px; 
         margin: auto;
-        padding: 32px 60px;
+        padding: 12px 12px 32px 12px;
 
     } 
 
     .locations__close-modal {  
         width: 24px; 
         height: 24px;
-        left: 390px;
-        position: absolute;
+        margin-left: 520px;
+        
     } 
 
     .locations__title{  
