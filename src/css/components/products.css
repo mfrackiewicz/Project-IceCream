@@ -157,11 +157,12 @@
   content: '';
   background-color: var(--productsIceCream);
   background-image: url(../../images/products/ice-mobile@1x.png);
+  background-repeat: no-repeat;
+  align-self: center;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products__item--ice::before {
     background-image: url(../../images/products/ice-mobile@2x.png);
-    background-repeat: no-repeat;
     border-radius: 50%;
     background-size: contain;
     position: absolute;
@@ -214,11 +215,12 @@
   content: '';
   background-color: var(--productsIceCoffe);
   background-image: url(../../images/products/coffee-mobile@1x.png);
+  background-repeat: no-repeat;
+  align-self: center;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products__item--coffee::before {
     background-image: url(../../images/products/coffee-mobile@2x.png);
-    background-repeat: no-repeat;
     border-radius: 50%;
     background-size: contain;
     position: absolute;
@@ -270,11 +272,12 @@
   content: '';
   background-color: var(--productsMilkshakes);
   background-image: url(../../images/products/shake-mobile@1x.png);
+  background-repeat: no-repeat;
+  align-self: center;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products__item--shake::before {
     background-image: url(../../images/products/shake-mobile@2x.png);
-    background-repeat: no-repeat;
     border-radius: 50%;
     background-size: contain;
     position: absolute;
