@@ -249,8 +249,11 @@ button[disabled] {
   }
 }
 .menu-item {
-  position: absolute;
-  bottom: 20px;
+  /* position: absolute; */
+  /* bottom: 20px; */
+  /* <Iga> */
+  margin-top: -40px;
+  /* </Iga> */
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
