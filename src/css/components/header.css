@@ -194,18 +194,21 @@ button[disabled] {
   left: 50%;
   z-index: 2;
   border: 2px solid var(--yellowColor);
-  width: 568px;
-  height: 664px;
+  /* width: 568px;
+  height: 664px; */
   border-radius: 10px;
   position: fixed;
   background-color: var(--whiteFontColor);
   transform: translate(-50%, -50%);
-  overflow: hidden;
+  /* overflow: hidden; */
+  width: 568px;
+  max-height: 85vh;
+  overflow-y: auto;
 }
 @media (max-width: 468px) {
   .header-modal {
     width: 280px;
-    min-height: 995px;
+    /* min-height: 995px; */
   }
 }
 
