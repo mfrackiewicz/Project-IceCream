@@ -12,17 +12,3 @@
     refs.modal.classList.toggle('is-hidden');
   }
 })();
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector('[mobile-modal-open=1]'),
-    closeModalBtn: document.querySelector('[mobile-modal-close=1]'),
-    modal: document.querySelector('[mobile-modal=1]'),
-  };
-
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-  }
-})();
